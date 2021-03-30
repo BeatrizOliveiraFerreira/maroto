@@ -1,0 +1,60 @@
+body {
+    margin-bottom: 22rem;
+    font-family: 'Roboto Mono',monospace;
+    background-image: url("https://i.pinimg.com/originals/a7/a4/38/a7a43872933c197726e9d1a9ee7ee600.png");
+    background-color: #000000;
+    background-size: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    
+  }
+
+button {
+    margin-bottom: 20px;
+    background-color: rgb(31, 121, 13);
+    color: white;
+    cursor: pointer;
+    padding: 10px 40px 10px 40px;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+button:hover {
+    background-color: rgb(3, 34, 3);
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    background-color: rgb(134, 134, 134);
+    color: rgb(68, 34, 34);
+    padding: 20px;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+@media screen and (min-width: 990px) {
+    body{
+      background-image: url("https://img.elo7.com.br/product/zoom/22C7FD3/pano-de-prato-mapa-do-maroto-harry-potter-cha-de-cozinha.jpg");
+      text-align: center;
+      background-size: 20vh;
+      font-size: 20px;
+      border-radius: 15px;
+      
+    }
+
+    h2{
+        align-items: flex-start;
+        display: flex;
+        justify-content: center;
+        border-radius: 30px;
+        font-size: 30px;
+        background-size: 30vh;
+        border-radius: 20px;
+        margin-left: 20px;
+    }
+  
+}
+
+
+
